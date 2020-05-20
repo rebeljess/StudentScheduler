@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.studentschedulerjesslambert.TermActivity">
+
+    <item
+        android:id="@+id/startNotifications"
+        android:orderInCategory="100"
+        android:title="@string/start_notifications"
+        android:clickable="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/endNotifications"
+        android:orderInCategory="100"
+        android:title="@string/end_notifications"
+        android:clickable="false"
+        app:showAsAction="never" />
+</menu>
